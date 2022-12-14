@@ -2,6 +2,7 @@
 
 /**
  * main - prints the sum of the Fibonacci even numbers
+ * less than
  * Return: Nothing!
 */
 int main(void)
@@ -17,6 +18,6 @@ int main(void)
 	j = k - j;
 	++i;
 	}
-	printf("%ldn", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
